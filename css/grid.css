@@ -44,6 +44,10 @@ html {
     padding-right: 15px;
     /*padding: 0px 15px 0px 15px;*/
   }
+
+  nav {
+    display: none;
+  }
   
   .col-span-auto {
     grid-column: span 1 / span 1;
@@ -139,6 +143,10 @@ html {
     /*body {
       background: #ff0000;
     }*/
+
+    nav {
+        display: block;
+      }
   
     .full-width-grid-con {
       display: grid;
@@ -343,6 +351,10 @@ html {
       /*body {
         background: #00ff48;
       }*/
+
+      nav {
+        display: block;
+      }
   
       .full-width-grid-con {
         display: grid;
@@ -568,6 +580,10 @@ html {
       /*body {
         background: #0400e0;
       }*/
+
+      nav {
+        display: block;
+      }
   
       .full-width-grid-con {
         display: grid;
